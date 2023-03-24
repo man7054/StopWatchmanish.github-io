@@ -1,0 +1,61 @@
+/*Body Style*/
+body{
+  background: #5198e9;
+  display: flex;   
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+/*Whole page color*/
+#container{
+color: rgb(241, 245, 248);
+}
+/*Digit section */
+.digit{
+  font-size: 100px;;
+  font-weight: bold;
+}
+/*Text section */
+.text{
+  font-size: 30px;
+  font-weight: bold;
+}
+/*Start button Style*/
+#start{
+  height: 50px;
+  width: 80px;
+  font-size: large;
+  font-weight: bold;
+ color:white;
+ background: green;
+ margin-left: 2px;
+}
+/*Stop button Style*/
+#stop{
+  height: 50px;
+  width: 80px;
+  font-size: large;
+  font-weight: bold;
+ color:white;
+ background: rgb(212, 58, 71);
+ margin-left: 2px;
+}
+/*reset button Style*/
+#reset{
+  height: 50px;
+  width: 80px;
+  font-size: large;
+  font-weight: bold;
+ color:white;
+ background:slategrey;
+ margin-left: 2px;
+}
+/*button text Style*/
+#btn-container{
+  justify-content: center;
+  margin-top: 40px;
+  text-align: center;
+  padding: 25px 7px;
+  cursor: pointer;
+}
+    
